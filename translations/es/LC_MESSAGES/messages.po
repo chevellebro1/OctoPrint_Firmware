@@ -1,0 +1,154 @@
+# Spanish translations for Firmware Updater.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the Firmware Updater project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Firmware Updater 1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-09-29 09:46+0200\n"
+"PO-Revision-Date: 2015-09-29 09:47+0100\n"
+"Last-Translator: Nicanor Romero Venier <nicanor.romerovenier@bq.com>\n"
+"Language-Team: es <nicanor.romerovenier@bq.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:50
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:94
+msgid "Administrator privileges are needed to flash firmware."
+msgstr "Se necesitan permisos de administrador para flashear firmware."
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:56
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:100
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:142
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:171
+msgid "Printer is printing. Please wait for the print to be finished."
+msgstr ""
+"La impresora está imprimiendo. Por favor, espere a que finalice la impresión."
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:62
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:106
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:178
+#, fuzzy
+msgid "AVRDUDE path not configured"
+msgstr "Ruta a AVRDUDE no configurada"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:68
+msgid "Hex file path not specified"
+msgstr "Ruta a fichero HEX no especificada"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:74
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:118
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:149
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:185
+msgid "Port not selected"
+msgstr "Puerto no seleccionado"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:112
+msgid "Hex file URL not specified"
+msgstr "URL a fichero HEX no especificada"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:311
+msgid "The path doesn't exist"
+msgstr "La ruta no existe"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:313
+msgid "The path is not a file"
+msgstr "La ruta no apunta a un fichero"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:315
+msgid "The path is not an executable"
+msgstr "La ruta no apunta a un ejecutable"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:318
+msgid "The path is valid"
+msgstr "La ruta es válida"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:396
+#, fuzzy
+msgid "Firmware Update available"
+msgstr "Actualización de Firmware disponible"
+
+#: octoprint_firmwareupdater/static/js/firmwareupdater.js:397
+msgid "Version "
+msgstr "Versión"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:6
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:78
+msgid "Plugin Configuration"
+msgstr "Configuración del Plugin"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:9
+msgid "Firmware Updater"
+msgstr "Actualizador de Firmware"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:13
+msgid "Hex File"
+msgstr "Fichero HEX"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:16
+msgid "... from File"
+msgstr "... desde Fichero"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:22
+msgid "Browse..."
+msgstr "Navegar..."
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:32
+msgid "Flash from File"
+msgstr "Cargar desde Fichero"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:38
+msgid "... from URL"
+msgstr "... desde URL"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:44
+msgid "Flash from URL"
+msgstr "Cargar desde URL"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:49
+msgid "Printer Settings"
+msgstr "Configuración de la Impresora"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:51
+msgid "Select the serial port where your printer is connected"
+msgstr "Seleccione el puerto serie donde está conectada su impresora"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:52
+msgid "Serial Port"
+msgstr "Puerto Serie"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:60
+msgid "Check for firmware updates after connecting to printer"
+msgstr "Buscar actualizaciones al conectarse a la impresora"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:67
+msgid "Check for Updates"
+msgstr "Buscar Actualizaciones"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:68
+msgid "Update Firmware"
+msgstr "Actualizar Firmware"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:83
+#, fuzzy
+msgid "Path to AVRDUDE"
+msgstr "Ruta a AVRDUDE"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:87
+msgid "Test"
+msgstr "Verificar"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:95
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: octoprint_firmwareupdater/templates/firmwareupdater_settings.jinja2:96
+msgid "Save"
+msgstr "Guardar"
